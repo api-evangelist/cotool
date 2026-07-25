@@ -1,0 +1,23 @@
+generated: '2026-07-18'
+method: searched
+source: live probes of https://www.cotool.ai and https://cotool.ai
+host: https://www.cotool.ai
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404
+notes: >-
+  No .well-known discovery documents or llms.txt are published on either the www
+  or apex host as of the probe date. Cotool exposes a marketing/product site only;
+  no public developer platform, OAuth authorization server, or API catalog was
+  found. Absence of these documents is honest, expected data for a company at this
+  stage.

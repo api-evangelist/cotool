@@ -1,7 +1,18 @@
 aid: cotool
 name: Cotool
-description: 'Cotool is a company surfaced as a portfolio company of homebrew and added to the API Evangelist
-  network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Cotool is an AI platform for the defensive security "blue team" — AI agents
+  that scale detection, response, and threat hunting across an organization's
+  security stack. Its three products, Detect, Respond, and Hunt, let teams
+  author detections from natural-language descriptions, automate alert response
+  and playbook execution with human-in-the-loop controls, and monitor threat
+  intelligence for relevance and coverage gaps. Cotool's stated mission is to
+  "scale defensive security with tokens," giving defenders machine-speed
+  operational advantages instead of being limited by headcount, improving
+  coverage and cutting mean-time-to-respond (MTTR). Cotool is a San Francisco
+  company backed by Andreessen Horowitz (a16z), Y Combinator, WndrCo, and
+  Homebrew. As of this profile it publishes a product and marketing site only —
+  no public API, developer documentation, SDK, or MCP server was found.
 url: https://raw.githubusercontent.com/api-evangelist/cotool/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +20,31 @@ x-backed-by:
 - homebrew
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.cotool.ai/images/og.jpg
 tags:
 - Company
-- Ai
+- AI
+- Cybersecurity
+- Security Operations
+- Threat Detection
+- Incident Response
+- Threat Hunting
+- Blue Team
+- SOC Automation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +54,26 @@ maintainers:
 common:
 - type: Website
   url: https://www.cotool.ai
+- type: About
+  url: https://www.cotool.ai/about
+- type: Blog
+  url: https://www.cotool.ai/blog
+- type: PrivacyPolicy
+  url: https://www.cotool.ai/privacy-policy
+- type: TermsOfService
+  url: https://www.cotool.ai/license
+- type: LinkedIn
+  url: https://www.linkedin.com/company/cotool-ai
+- type: Twitter
+  url: https://x.com/cotoolai
+- type: DomainSecurity
+  url: security/cotool-domain-security.yml
+- type: WellKnown
+  url: well-known/cotool-well-known.yml
+- type: LLMsTxt
+  url: llms/cotool-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

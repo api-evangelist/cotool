@@ -1,0 +1,28 @@
+# Cotool
+
+> Cotool is an AI platform for the defensive security "blue team" — AI agents that scale detection, response, and threat hunting across an organization's security stack to improve coverage, cut mean-time-to-respond (MTTR), and eliminate manual, repetitive security operations work. Cotool is a San Francisco company backed by Andreessen Horowitz (a16z), Y Combinator, WndrCo, and Homebrew. As of this profile, Cotool publishes a product and marketing site only — no public API, developer documentation, SDK, or MCP server was found.
+
+## Products
+- [Detect](https://www.cotool.ai/detect): AI-powered threat detection authored from natural-language descriptions.
+- [Respond](https://www.cotool.ai/respond): Automated alert response and playbook execution with human-in-the-loop controls.
+- [Hunt](https://www.cotool.ai/hunt): Threat-intelligence monitoring that filters for relevance and surfaces coverage gaps.
+
+## Company
+- [Home](https://www.cotool.ai): AI for the blue team.
+- [About](https://www.cotool.ai/about): Mission, founders (Max Pollard, Logan Carmody, Eddie Conk, Josh Pachter), and investors.
+- [Partners](https://www.cotool.ai/partners): Partner program.
+- [Research](https://www.cotool.ai/research): Security research content.
+- [Blog](https://www.cotool.ai/blog): Company blog.
+- [Request a demo](https://www.cotool.ai/request-demo): Sales/demo request.
+
+## Legal
+- [Privacy Policy](https://www.cotool.ai/privacy-policy)
+- [License / Terms](https://www.cotool.ai/license)
+
+## Social
+- [LinkedIn](https://www.linkedin.com/company/cotool-ai)
+- [X / Twitter](https://x.com/cotoolai)
+
+## Notes
+- No public API, OpenAPI/Swagger, AsyncAPI, SDK/packages, CLI, MCP server, OAuth surface, or .well-known discovery documents were found (all probed .well-known paths returned 404).
+- This is a generated catalog summary (API Evangelist enrichment pipeline), not a Cotool-published llms.txt.
